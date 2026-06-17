@@ -9,7 +9,7 @@ const secInput = document.getElementById("sec");
 
 let timeInSeconds = 0;
 let timerId = null;
-
+//update the UI based on the current time in seconds
 function updateUI() {
     // Calculate units from total seconds
     const h = Math.floor(timeInSeconds / 3600);
