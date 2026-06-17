@@ -21,7 +21,7 @@ function updateUI() {
     minInput.value = m.toString().padStart(2, '0');
     secInput.value = s.toString().padStart(2, '0');
 }
-
+//stop the timer by clearing the interval and resetting the timerId
 function stopTimer() {
     clearInterval(timerId);
     timerId = null;
